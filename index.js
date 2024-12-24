@@ -1,5 +1,4 @@
 import { createServer } from 'node:http';
-import fs from 'node:fs'
 import { changeStatus, createTask, getData, initCounter, deleteTask } from './storage.js';
 
 const hostname = '127.0.0.1';
